@@ -5,11 +5,13 @@
 Key highlights of this custom scripting language include:
 
 ✨ Dynamic property definition and modification during runtime, enabling real-time adjustments without the burden of tedious recompilations.
+
 ✨ Support for various data types, including integers, floats, booleans, strings, as well as custom types like vectors and colors.
+
 ✨ The flexibility to define and apply object properties dynamically, allowing developers to make real-time adjustments seamlessly.
 
-TEST:
 
+```cpp
 int main()
 {
     std::string text = R"(begin (player)
@@ -83,3 +85,4 @@ if (scanner.Load(text))
     std::cout << "Error in scanner" << std::endl;
 }
 }
+```
